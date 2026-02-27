@@ -1,0 +1,125 @@
+#image {
+  width: 60%;
+  max-width: 100%;
+  
+  box-shadow: 0 25px 50px rgba(0,0,0,0.7);
+  height: auto;
+  display: block;
+  margin: 0 auto;
+} 
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  
+  gap: 1.5rem;
+ flex-wrap: wrap;
+  margin: 3rem 0;
+}
+.gallery figure {
+  max-width: 200px;
+  text-align: center;}
+
+.internal {
+    width: 100%;
+  height: 240px;
+  object-fit: cover;
+  display: block;
+  
+}
+#image2 ,
+#image3 , 
+#image4 ,
+#image5{
+ box-shadow: 0 15px 30px rgba(0,0,0,0.6); 
+}
+.gallery figcaption {
+    font-style: italic;
+}
+.gallery-title {
+  text-align: center;
+  font-size: 1.8rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin: 4rem 0 2rem;
+  color: #e6d8b5;
+  font-family: "Georgia", serif;
+}
+ul {
+  max-width: 600px;
+  margin: 0 auto;
+}
+body {
+  margin: 0;
+  font-family: "Georgia", serif;
+  background-color: #0A0F1C; 
+  color: #EAEAEA;           
+  line-height: 1.7;
+}
+#title {
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 0.2em;
+  color: #D4AF37;
+  margin-top: 2rem;
+}
+img-div {
+  background-color: #1C2333; 
+  padding: 2rem;
+  margin: 3rem auto;
+  max-width: 900px;
+  border-radius: 8px;
+}
+#img-caption {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-style: italic;
+  color: #D4AF37; 
+}
+#tribute-info {
+  background-color: #1C2333; 
+  padding: 2rem;
+  margin: 3rem auto;
+  max-width: 900px;
+  border-radius: 8px;
+}
+.gallery-title::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: #D4AF37; 
+  margin: 1rem auto 0;
+}
+#tribute-link {
+  display: block;
+  text-align: center;
+  margin: 4rem 0 2rem;
+  color: #7A1E2D; 
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+#tribute-link:hover {
+  color: #D4AF37; 
+}
+blockquote {
+  max-width: 700px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background-color: #1C2333; 
+  border-left: 4px solid #D4AF37; 
+  font-style: italic;
+}
+blockquote cite {
+  display: block;
+  margin-top: 1rem;
+  text-align: right;
+  color: #D4AF37; 
+}
+.gallery figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #EAEAEA; /* Soft White */
+}
